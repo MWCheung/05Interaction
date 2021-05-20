@@ -14,6 +14,5 @@ function spin(){
 
 	myOtherBox.addEventListener('mouseenter', 'mouseleave' function(){
 	rotationSpeed = 0.01;
-	rotationSpeed= 0.001;
 	console.log('mouse enter', 'mouse leave');
 });
