@@ -1,6 +1,6 @@
 
 var rotationSpeed = 0.001;
-var myOtherBox = document.getElementById('myOtherBox');
+//	var myOtherBox = document.getElementById('myOtherBox');
 
 function spin(){
 	myOtherBox.object3D.rotation.x += rotationSpeed;
@@ -9,7 +9,7 @@ function spin(){
 //	console.log(myOtherBox.object3D.rotation);
 }
 
-//	setInterval(spin, 16);
+	setInterval(spin, 16);
 
 
 //	myOtherBox.addEventListener('mouseenter', function(){
