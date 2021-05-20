@@ -25,17 +25,17 @@
         depth="1" 
         material="src: #wood"
         shadow 
-        animation__mouseenter="
+        animation__mouseon="
           property: components.material.material.color; 
           type: color; 
           to: blue; 
-          startEvents: mouseenter; 
+          startEvents: mouseon; 
           dur: 500;"
-        animation__mouseleave="
+        animation__mouseoff="
           property: components.material.material.color; 
           type: color; 
           to: red; 
-          startEvents: mouseleave; 
+          startEvents: mouseoff; 
           dur: 500;">  
       </a-box>
       <a-box id="myOtherBox" 
